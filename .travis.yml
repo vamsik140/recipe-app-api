@@ -8,4 +8,4 @@ services:
 before_script:
 
 script:
-  - python app/manage.py test && flake8
+  - python manage.py test && flake8
