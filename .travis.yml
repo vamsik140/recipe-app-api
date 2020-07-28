@@ -7,5 +7,5 @@ services:
 
 before_script:
 
-#script:
-#  - python app/manage.py test && flake8
+script:
+  - python app/manage.py test && flake8
